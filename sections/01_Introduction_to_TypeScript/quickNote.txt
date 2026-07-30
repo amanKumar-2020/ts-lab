@@ -1,0 +1,13 @@
+### 01
+Node IPC (Inter-Process Communication)
+
+Node IPC (Inter-Process Communication) is a mechanism that allows multiple Node.js processes to communicate and exchange data. It is commonly used when an application creates child processes or worker processes to perform tasks in parallel.
+
+example --> child.js and Parent.js file is example
+
+### 2
+alias vsnode='ELECTRON_RUN_AS_NODE=1 /usr/share/code/code'      // for linux
+creating alias for using build in node in vscode 
+
+// @ts-check
+it now check type in javascript

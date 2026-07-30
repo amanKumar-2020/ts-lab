@@ -54,7 +54,7 @@ This repository is where I'll document everything I learn throughout my TypeScri
 
 ## 📅 Progress
 
-- [ ] Introduction
+- [✅] Introduction
 - [ ] Setup
 - [ ] Basic Types
 - [ ] Functions
