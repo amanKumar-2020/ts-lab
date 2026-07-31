@@ -6,8 +6,8 @@
 tsc fileName.ts
 ```
 
-* Compiles the `.ts` file.
-* Generates the corresponding `.js` file in the same directory.
+- Compiles the `.ts` file.
+- Generates the corresponding `.js` file in the same directory.
 
 **Example**
 
@@ -23,9 +23,9 @@ tsc app.ts
 tsc fileName.ts --noEmit
 ```
 
-* Checks the code for TypeScript errors.
-* Does **not** generate a `.js` file.
-* Useful before committing code or during development.
+- Checks the code for TypeScript errors.
+- Does **not** generate a `.js` file.
+- Useful before committing code or during development.
 
 **Example**
 
@@ -41,8 +41,8 @@ tsc app.ts --noEmit
 tsc fileName.ts --noEmitOnError
 ```
 
-* Compiles the file only if there are **no TypeScript errors**.
-* If any error exists, no `.js` file is generated.
+- Compiles the file only if there are **no TypeScript errors**.
+- If any error exists, no `.js` file is generated.
 
 **Example**
 
@@ -58,8 +58,8 @@ tsc app.ts --noEmitOnError
 tsc
 ```
 
-* Compiles all TypeScript files based on the `tsconfig.json` configuration.
-* Recommended for projects instead of compiling files one by one.
+- Compiles all TypeScript files based on the `tsconfig.json` configuration.
+- Recommended for projects instead of compiling files one by one.
 
 ---
 
@@ -91,9 +91,9 @@ or
 tsc -w
 ```
 
-* Watches for file changes.
-* Automatically recompiles whenever you save a `.ts` file.
-* Very useful during development.
+- Watches for file changes.
+- Automatically recompiles whenever you save a `.ts` file.
+- Very useful during development.
 
 ---
 
@@ -103,8 +103,8 @@ tsc -w
 tsc --init
 ```
 
-* Creates a `tsconfig.json` file.
-* This file stores your TypeScript compiler settings.
+- Creates a `tsconfig.json` file.
+- This file stores your TypeScript compiler settings.
 
 ---
 
@@ -122,12 +122,13 @@ tsc --init
 
 # Notes
 
-* `.ts` → TypeScript source file.
-* `.js` → JavaScript file generated after compilation.
-* For small programs, you can compile individual files.
-* For real projects, use a **`tsconfig.json`** and simply run:
+- `.ts` → TypeScript source file.
+- `.js` → JavaScript file generated after compilation.
+- For small programs, you can compile individual files.
+- For real projects, use a **`tsconfig.json`** and simply run:
 
   ```bash
   tsc
   ```
-* If you're using VS Code, TypeScript errors are often shown live even before running `tsc`.
+
+- If you're using VS Code, TypeScript errors are often shown live even before running `tsc`.
