@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2025",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "pretty": true,
+    "outDir": "./disk",
+    "rootDir": "./src",
+    "sourceMap": true
+  },
+  // "include": ["src/app.ts", "src/main.ts"]   // ts compiler on include those files
+  // "exclude": ["src/**/*.test.ts"]  // exclude files
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.test.ts", "src/playground"]
+}
