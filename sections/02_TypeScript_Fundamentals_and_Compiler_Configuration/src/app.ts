@@ -1,3 +1,5 @@
-let num =5
+// let num =5
 
-console.log(typeof num)
+// console.log(typeof num)
+
+const data : (String | number)[] = ["Aman" , 33]
