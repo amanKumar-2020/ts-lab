@@ -4,7 +4,7 @@
 //   return arr.map(cb);
 // }
 
-// const result = customMap([1, 2], (item) => item * 2);
+// let result = customMap([1, 2], (item) => item * 2);
 
 // console.log(result);
 
@@ -12,11 +12,11 @@ function customFilter<T>(
   arr: T[],
   // cb: (el: T, index: number, arr: T[]) => boolean,
 ) {
-  const result = [];
-  for (let i= 0; i< arr.length; i++){
-    if(i<3) result.push(i);
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (i < 3) result.push(i);
   }
-  return result
+  return result;
 }
 
 const filtered = customFilter([1, 2, 3, 4, 5, 6]);
