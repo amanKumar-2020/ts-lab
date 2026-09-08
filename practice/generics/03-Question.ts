@@ -46,4 +46,4 @@ const result2 = createPair("Aman","Kumar")
 console.log(result);
 console.log(result2);
 
-export default result;
+export {};
