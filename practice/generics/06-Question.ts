@@ -33,7 +33,7 @@ because number doesn't have a length property.
 function getLength<
   T extends {
     length: number;
-  },
+  }
 >(arg: T):number {
   return arg.length;
 }
