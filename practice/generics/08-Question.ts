@@ -43,7 +43,7 @@ function merge<T, U>(obj1: T, obj2: U): T & U {
 }
 
 const user = {
-  name: "Aman",
+  name: "Mayank",
   age: 22,
 };
 
